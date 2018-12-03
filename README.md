@@ -7,6 +7,10 @@ List of 3 scripts to prepare a stock Ubuntu AMI on AWS to act as a remote workst
 The scripts (located under `scripts/`) take care of installing Lubuntu, TurboVNC, VirtualGL, Nvidia
 drivers.
 
+## Motivation
+
+Simulators like gazebo is requierd for smooth robotics development. However, to run them on EC2 is a bit complecated because of remote desktop and OpenGL dependencies. This tools help you to build such environment.
+
 ## Installation
 
 I've tested the scripts with a basic Ubuntu 16.04 image on a G2 instance. Also I tested a T3 instance, so it means you can choose if you use GPU acceleration or not.
@@ -64,8 +68,12 @@ For example, you can do something like:
 
 `$ vglrun roslaunch turtlebot3_gazebo turtlebot3_world.launch`
 
-## AMI?
+Note: You have to install ROS.
+
+## Pre-built AMI?
 
 Yes!
 
 - ami-0390ae66d997d4061 (Tokyo Region, NO GPU acceleration.)
+  - ROS installed.
+  - Turtlebot3 installed.
