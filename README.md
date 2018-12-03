@@ -63,3 +63,9 @@ And visit http://webglreport.com/ to check that you're effectively using the Nvi
 For example, you can do something like:
 
 `$ vglrun roslaunch turtlebot3_gazebo turtlebot3_world.launch`
+
+## AMI?
+
+Yes!
+
+- ami-0390ae66d997d4061 (Tokyo Region, NO GPU acceleration.)
