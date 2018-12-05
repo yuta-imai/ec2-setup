@@ -11,7 +11,7 @@ if [[ $? -ne 0 ]] ; then
 fi
 
 # This should not be needed!
-sudo nvidia-docker-plugin &
+# sudo nvidia-docker-plugin &
 # TRY:
 # https://github.com/NVIDIA/nvidia-docker/issues/116
 # sudo apt-get purge nvidia-docker
