@@ -9,7 +9,9 @@ drivers.
 
 ## Motivation
 
-Simulators like gazebo is requierd for smooth robotics development. However, to run them on EC2 is a bit complecated because of remote desktop and OpenGL dependencies. This tools help you to build such environment.
+I wanted to develop multi robot application. But to have multi phisycal robots takes time and costs. So I moved to simulator on EC2.
+
+However, to run it on EC2 and use with remote desktop is a bit complecated because of OpenGL and VNC. This tools help you to build such environment.
 
 ## Installation
 
@@ -75,5 +77,8 @@ Note: You have to install ROS.
 Yes!
 
 - ami-0390ae66d997d4061 (Tokyo Region, NO GPU acceleration.)
+  - ROS installed.
+  - Turtlebot3 installed.
+- ami-06cd6a591f1f6d6a1 (Tokyo Region, GPU acclerated for G2 instances.)
   - ROS installed.
   - Turtlebot3 installed.
