@@ -74,11 +74,4 @@ Note: You have to install ROS.
 
 ## Pre-built AMI?
 
-Yes!
-
-- ami-0390ae66d997d4061 (Tokyo Region, NO GPU acceleration.)
-  - ROS installed.
-  - Turtlebot3 installed.
-- ami-06cd6a591f1f6d6a1 (Tokyo Region, GPU acclerated for G2 instances.)
-  - ROS installed.
-  - Turtlebot3 installed.
+Currently working on this. Will be available soon.
